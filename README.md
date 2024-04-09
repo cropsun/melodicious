@@ -1,4 +1,4 @@
-# AVIOX
+# AIVOX
 
 An easy-to-use API for generating music
 
