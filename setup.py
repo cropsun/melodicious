@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="aivox",
-    version="0.1.0",
+    version="0.0.1",
     author="Cropsun",
     author_email="martinsunshinesh@gmail.com",
     description="A simple API client for AI-Music Generate",
