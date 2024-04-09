@@ -8,7 +8,7 @@ setup(
     description="A simple API client for AI-Music Generate",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/my-api-client",
+    url="https://github.com/cropsun/aivox",
     packages=find_packages(),
     install_requires=[
         "requests",

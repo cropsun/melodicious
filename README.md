@@ -8,6 +8,8 @@ pip install aivox
 
 # EXAMPLE
 
-client = APIClient(base_url="http://melodicious.com")
+client = APIClient(base_url="https://example.com")
+
 response = client.play("username", "password", "/endpoint", {"key": "value"})
+
 print(response)
