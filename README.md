@@ -8,7 +8,13 @@ pip install aivox
 
 # EXAMPLE
 
-client = aivox.APIClient(base_url="https://example.com")
+import aivox
 
-response = client.playing("username", "password", "/endpoint", {"key": "value"})
+client = aivox.APIClient(base_url,username,usertoken)
+
+client.login()   
+
+response = client.playing(api_type,song_quality,song_singer,song_source)
+
+print(response.text)
 
