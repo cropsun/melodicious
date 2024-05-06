@@ -1,12 +1,3 @@
-<head>
-<style>
-.normal-font {
-    font-weight: lighter;
-    font-size: 13px;
-    letter-spacing: 0.6px
-}
-</style>
-</head>
 
 <br>
 <div align="center" class= "main"> 
@@ -18,21 +9,21 @@
 
 ## License Agreement
 
-<div class="normal-font">
+<div style="font-weight: lighter;font-size: 13px;letter-spacing: 0.6px">
 Any use for borken human artist or fake stream are not allowed here
 </div>
 <br><hr>
 
 ## What's this
 
-<div class="normal-font">
+<div style="font-weight: lighter;font-size: 13px;letter-spacing: 0.6px">
 An easy-to-use API for generating music
 </div>
 <br><hr>
 
 ## More details
 
-<div class="normal-font">
+<div style="font-weight: lighter;font-size: 13px;letter-spacing: 0.6px">
 Your can generate your own music in high-solution method we call "ai-midi"
 even you can sing and render your voice to professional vocalist
 </div>
