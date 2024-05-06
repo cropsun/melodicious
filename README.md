@@ -1,8 +1,14 @@
+<head>
 <style>
-.normal-font{font-weight: lighter;font-size: 13px;letter-spacing: 0.6px}
+.normal-font {
+    font-weight: lighter;
+    font-size: 13px;
+    letter-spacing: 0.6px
+}
 </style>
+</head>
 
-<br><br>
+<br>
 <div align="center" class= "main"> 
   <img src="materails/img/logo.png" width="300" height="300" style="border-radius: 10px"/>
   <h1 style="letter-spacing: 2.5px;font-weight: lighter">Melodicious AI</h1>
@@ -25,6 +31,7 @@ An easy-to-use API for generating music
 <br><hr>
 
 ## More details
+
 <div class="normal-font">
 Your can generate your own music in high-solution method we call "ai-midi"
 even you can sing and render your voice to professional vocalist
@@ -33,10 +40,10 @@ even you can sing and render your voice to professional vocalist
 
 ## How to setup
 
-
 ```ssh
 pip install melodicious
 ```
+
 <br><hr>
 
 ## For example
@@ -50,5 +57,6 @@ response = client.playing()
 
 print(response)
 ```
+
 <br><hr>
 
