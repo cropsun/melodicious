@@ -3,7 +3,7 @@
 .normal-font {
     font-weight: lighter;
     font-size: 13px;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.6px
 }
 </style>
 </head>
