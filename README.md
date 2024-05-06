@@ -4,17 +4,14 @@ An easy-to-use API for generating music
 
 # SETUP
 
-pip install aivox
+pip install melodicious
 
 # EXAMPLE
 
-import aivox
+import melodicious
 
-client = aivox.APIClient(base_url,username,usertoken)
+client = melodicious.APIClient(base_url, username, usertoken, callEndpoint, data)
 
-client.login()   
+response = client.playing()
 
-response = client.playing(api_type,song_quality,song_singer,song_source)
-
-print(response.text)
-
+print(response)
